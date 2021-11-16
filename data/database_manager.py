@@ -21,7 +21,7 @@ def close_connection(conn):
 def select_all(conn):
     """select all rows from our table using the conn we already created """
     cur = conn.cursor()
-    query = "SELECT * FROM " # To-Do write the query to retrive all data from the longley table 
+    query = "SELECT * FROM longley" # To-Do write the query to retrive all data from the longley table 
 
     cur.execute(query)
 
